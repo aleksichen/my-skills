@@ -6,6 +6,8 @@
 - Every issue must have one `type/*` and one `area/*`.
 - Status lifecycle: `Triage -> Backlog -> In Progress -> Done`.
 - User instructions take precedence over default skill behavior.
+- Issue descriptions should be concise summaries, not full solution/design documents.
+- When a full plan is needed, keep it in repository docs and link the path/URL from the issue.
 
 ## Bugfix Rule
 
@@ -25,4 +27,3 @@ Bug-only required fields:
 - root cause
 - fix strategy
 - regression test note
-

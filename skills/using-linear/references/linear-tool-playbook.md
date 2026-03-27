@@ -24,7 +24,7 @@ Notes:
 
 1. `list_issue_labels`
 2. `list_issues` (dedup search)
-3. `save_issue`
+3. `save_issue` with concise description and repo document path/URL
 4. `save_comment` (optional context)
 
 ## Priority

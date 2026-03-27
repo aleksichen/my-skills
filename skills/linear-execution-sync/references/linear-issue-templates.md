@@ -1,5 +1,22 @@
 # Linear Issue Templates (Pine)
 
+## Concise Issue Description Template
+
+```markdown
+## Context
+<1-2 sentences>
+
+## Goal
+<1 sentence>
+
+## Acceptance
+- <key outcome 1>
+- <key outcome 2>
+
+## Repo Doc
+<repo doc path or URL>
+```
+
 ## Bug Capture Template
 
 ```markdown
@@ -58,4 +75,3 @@
 ### Debt/Refactor
 - <item>
 ```
-

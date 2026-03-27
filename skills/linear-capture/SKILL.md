@@ -19,7 +19,7 @@ Normalize new work items into Linear without duplicates and with required metada
 
 1. Validate labels and status assumptions.
 2. Run dedup query on existing issues.
-3. Create or update issue with mandatory fields.
+3. Create or update issue with mandatory fields and concise description only.
 4. Add structured context comment when needed.
 
 ## MCP Sequence
@@ -35,9 +35,11 @@ Normalize new work items into Linear without duplicates and with required metada
 - Bug issues must include symptom, repro, and expected-vs-actual.
 - Exploratory items must use `[Spike]` in title.
 - New long-range direction items should default to parent issue shape.
+- Issue description must stay concise: problem/context, goal, and acceptance points only.
+- Do not paste full implementation/design plans into issue description.
+- If a detailed plan exists, store it in repository docs and include its path or URL in issue description.
 
 ## Non-Goals
 
 - No global prioritization.
 - No completion-state synchronization.
-
