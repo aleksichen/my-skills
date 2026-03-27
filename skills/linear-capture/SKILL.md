@@ -11,9 +11,9 @@ Normalize new work items into Linear without duplicates and with required metada
 
 ## Shared References
 
-- `../linear-references/linear-workflow-rules.md`
-- `../linear-references/linear-issue-templates.md`
-- `../linear-references/linear-tool-playbook.md`
+- `./references/linear-workflow-rules.md`
+- `./references/linear-issue-templates.md`
+- `./references/linear-tool-playbook.md`
 
 ## Workflow
 

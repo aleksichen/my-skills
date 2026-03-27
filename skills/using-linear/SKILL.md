@@ -20,8 +20,8 @@ Provide one entrypoint for Linear collaboration requests, then route each reques
 ## Shared Rules
 
 Before routing, load shared references:
-- `../linear-references/linear-workflow-rules.md`
-- `../linear-references/linear-tool-playbook.md`
+- `./references/linear-workflow-rules.md`
+- `./references/linear-tool-playbook.md`
 
 ## MCP Preflight
 

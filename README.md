@@ -11,6 +11,7 @@ My personal collection of agent skills for Claude Code and compatible AI coding 
 | `linear-priority-council` | Triage and prioritize Linear issues |
 | `linear-execution-sync` | Sync execution state with Linear during active development |
 | `linear-release-drafter` | Draft release notes from Linear issues |
+| `pine-script-language-reference` | Retrieve Pine Script v6 reference details from live TradingView data |
 
 ## Install
 

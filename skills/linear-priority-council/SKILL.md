@@ -11,8 +11,8 @@ Recommend actionable prioritization based on current cycle, milestones, dependen
 
 ## Shared References
 
-- `../linear-references/linear-workflow-rules.md`
-- `../linear-references/linear-tool-playbook.md`
+- `./references/linear-workflow-rules.md`
+- `./references/linear-tool-playbook.md`
 
 ## Workflow
 
