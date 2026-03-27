@@ -2,14 +2,14 @@
 
 Primary mode is live-only query:
 
-- Claude Code global install:
-  - `SKILL_DIR="$HOME/.claude/skills/pine-script-language-reference"`
-- Codex global install:
-  - `SKILL_DIR="$HOME/.agents/skills/pine-script-language-reference"`
+- Dynamic locate (recommended):
+  - `SKILL_DIR="$(find "$HOME" -type f -path "*/pine-script-language-reference/scripts/query_pine_reference_live.js" 2>/dev/null | head -n 1 | xargs dirname | xargs dirname)"`
 - Repository checkout usage:
   - `SKILL_DIR="$PWD/skills/pine-script-language-reference"`
 - Run:
   - `node "$SKILL_DIR/scripts/query_pine_reference_live.js" <term>`
+- Check:
+  - `test -f "$SKILL_DIR/scripts/query_pine_reference_live.js" || echo "skill not found"`
 
 ## Module-First Triage
 

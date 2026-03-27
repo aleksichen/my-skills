@@ -20,12 +20,14 @@ Use this skill as a general-purpose Pine v6 documentation retriever. It supports
 
 Path setup for portable usage:
 
-- Claude Code global install:
-  - `SKILL_DIR="$HOME/.claude/skills/pine-script-language-reference"`
-- Codex global install:
-  - `SKILL_DIR="$HOME/.agents/skills/pine-script-language-reference"`
+- Preferred (works across custom install locations):
+  - `SKILL_DIR="$(find "$HOME" -type f -path "*/pine-script-language-reference/scripts/query_pine_reference_live.js" 2>/dev/null | head -n 1 | xargs dirname | xargs dirname)"`
 - Repository checkout usage:
   - `SKILL_DIR="$PWD/skills/pine-script-language-reference"`
+
+Validation:
+
+- `test -f "$SKILL_DIR/scripts/query_pine_reference_live.js" || echo "skill not found"`
 
 ## Retrieval Workflow
 
